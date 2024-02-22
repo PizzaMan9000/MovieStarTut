@@ -68,6 +68,7 @@ const Page = () => {
       )}
 
       <ScrollView
+        maxWidth={'1280'}
         horizontal
         showsHorizontalScrollIndicator={false}
         py={40}
