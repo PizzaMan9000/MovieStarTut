@@ -25,7 +25,14 @@ const Layout = () => {
         name="movie/[id]"
         options={{
           title: '',
-          headerLeft: () => <DrawerToggleButton tintColor='#fff' />,
+          headerBackTitle: 'Back',
+        }}
+      />
+      <Stack.Screen
+        name="tv/[id]"
+        options={{
+          title: '',
+          headerBackTitle: 'Back',
         }}
       />
     </Stack>

@@ -28,6 +28,6 @@ export interface ResultItem {
 }
 
 export enum MediaType {
-    Movie = 'movie',
-    Tv = 'tv'
+  Movie = 'movie',
+  Tv = 'tv',
 }
