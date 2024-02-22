@@ -22,7 +22,7 @@ export const getSearchResults = async (query: string): Promise<TrendingResult> =
 
 export const getMovieDetails = async (id: number, type: MediaType): Promise<any> => {
   const response = await fetch(
-    `https://api.themoviedb.org/3/${type}/${id}?language=en-US&api_key=${API_KEY}`
+    `https://api.themoviedb.org/3/${type}/${id}?language=en-US&api_key=e990df45b8f6e2a14d54e16e1c70e993`
   );
 
   const data = await response.json();
